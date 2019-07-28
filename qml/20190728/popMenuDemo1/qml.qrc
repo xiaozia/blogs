@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>InsertSubMenu.qml</file>
+        <file>RightPopUpMenu.qml</file>
+        <file>ModifySubMenu.qml</file>
+        <file>MenuDelegate.qml</file>
+        <file>MenuBg.qml</file>
+        <file>CustomMenuSeparator.qml</file>
+        <file>images/small_right_arrow.png</file>
+        <file>ModifyLenSubMenu.qml</file>
+    </qresource>
+</RCC>
