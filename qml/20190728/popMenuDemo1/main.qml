@@ -8,7 +8,7 @@ Window {
     title: qsTr("Hello PopMenu")
 
     RightPopUpMenu {
-        id: selectNodesMenu
+        id: rightPopUpMenu
     }
 
     MouseArea {
@@ -16,7 +16,7 @@ Window {
         acceptedButtons: Qt.RightButton
         onClicked: {
             if (mouse.button === Qt.RightButton) {
-                selectNodesMenu.popup();
+                rightPopUpMenu.popup();
             }
         }
     }
